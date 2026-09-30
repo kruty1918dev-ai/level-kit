@@ -2,8 +2,7 @@
     "name": "Kruty1918.LevelKit.Tests",
     "rootNamespace": "Kruty1918.LevelKit.Tests",
     "references": [
-        "Kruty1918.LevelKit",
-        "Newtonsoft.Json"
+        "Kruty1918.LevelKit"
     ],
     "includePlatforms": [
         "Editor"
@@ -12,7 +11,8 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "nunit.framework.dll"
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll"
     ],
     "autoReferenced": false,
     "defineConstraints": [
